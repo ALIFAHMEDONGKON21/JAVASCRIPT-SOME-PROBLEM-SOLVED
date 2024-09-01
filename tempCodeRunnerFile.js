@@ -1,1 +1,1 @@
-console.log(price)
+const isLeader = false;
