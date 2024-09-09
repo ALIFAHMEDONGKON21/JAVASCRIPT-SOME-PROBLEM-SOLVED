@@ -13,4 +13,23 @@ function sum(num1,num2)
     return sum;
 }
 const finalsum=sum(8,'5');
-console.log(finalsum);
+// console.log(finalsum);
+
+
+
+function fullname(frist , last )
+{   
+    if(typeof frist !== 'string')
+    {
+        return "give me string ";
+    }
+    else if(typeof last !== 'string')
+    {
+        return "gsceond give me string";
+    }
+    const joinfullname= frist+last;
+    return joinfullname;
+}
+
+const callfullname=fullname('alif' ,8);
+console.log(callfullname);
