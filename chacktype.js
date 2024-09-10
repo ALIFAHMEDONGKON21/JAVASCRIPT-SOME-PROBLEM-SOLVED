@@ -25,11 +25,13 @@ function fullname(frist , last )
     }
     else if(typeof last !== 'string')
     {
-        return "gsceond give me string";
+        return "sceond give me string";
     }
     const joinfullname= frist+last;
     return joinfullname;
 }
 
 const callfullname=fullname('alif' ,8);
-console.log(callfullname);
+// console.log(callfullname);
+
+
