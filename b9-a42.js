@@ -51,8 +51,6 @@ function chackname3(names3)
      return result ? "good man" : "bad man"
 
 }
-// console.log(names3("allsdla"))
+console.log(names3("allsdla"))
 
-let a=7;
 
- console.log(typeof(a));
