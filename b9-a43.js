@@ -14,4 +14,6 @@ function deletedinviled(array)
     }
     return newarray;
 }
-console.log(deletedinviled([1,5,5,6,8,null]));
+// console.log(deletedinviled([1,5,5,6,8,null]));
+
+
