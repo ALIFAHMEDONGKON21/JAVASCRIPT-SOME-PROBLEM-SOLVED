@@ -31,4 +31,17 @@ function monthlySavings(arr , livingCost) {
     }
 }
 
-console.log(monthlySavings([ 1000 , 2000 , 3000 ] , 5400))
+// console.log(monthlySavings([ 1000 , 2000 , 3000 ] , 5400))
+
+
+
+
+for(let i=0; i<=100; i++)
+{
+    if(i%2==0)
+    {
+        console.log(i)
+    }
+}
+
+

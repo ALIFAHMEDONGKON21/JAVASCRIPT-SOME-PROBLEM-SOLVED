@@ -1,2 +1,1 @@
-console.log(fullName);
-console.log('40'+2);
+console.log(arr[i]);
