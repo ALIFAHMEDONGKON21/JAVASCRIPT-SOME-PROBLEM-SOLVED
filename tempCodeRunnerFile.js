@@ -1,1 +1,4 @@
-console.log(arr[i]);
+
+{
+    console.log(number);
+}
