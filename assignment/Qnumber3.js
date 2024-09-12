@@ -1,10 +1,8 @@
 function checkDigitsInName(name) {
-    
-    if(Array.isArray(name) === true || typeof name ==='number' || typeof name ==='object' || typeof name ==='boolean')
+    if(typeof name !== 'string')
     {
-        return"Invalid Input";
+        return"Invalid Input"
     }
-   
    for(let item of name)
    {
     if(item >=0 && item<=9)
@@ -16,4 +14,4 @@ function checkDigitsInName(name) {
    
 }
 
-console.log(checkDigitsInName('!@#'));
+console.log(checkDigitsInName('e1mu3'));
