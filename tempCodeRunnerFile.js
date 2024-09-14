@@ -1,4 +1,1 @@
-
-{
-    console.log(number);
-}
+console.log(newaray);
