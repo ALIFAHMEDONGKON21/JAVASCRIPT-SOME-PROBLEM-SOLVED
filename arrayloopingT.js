@@ -21,7 +21,7 @@ console.log(newaray);
 // console.log(newaray);
 
 let numbers=[1,2,4,34,6,5,8,6];
-let newarr=[];
+let newarr=" ";
 
 for(let number of numbers )
 {
