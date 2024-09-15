@@ -93,3 +93,10 @@ console.log(avg);
 let number=119;
 let rem=number%5;
 console.log(rem);
+
+
+
+var a1 = isNaN('11');
+console.log(a1);
+var a2 = isNaN(2-10);
+console.log(a2)
