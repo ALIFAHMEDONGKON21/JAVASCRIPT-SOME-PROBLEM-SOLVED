@@ -5,7 +5,7 @@ function Multiply(x,y)
     return mul ,mul2;
 
 }
-let ans=Multiply(4,8)
+// let ans=Multiply(4,8)
 // console.log(ans);
 
 
@@ -73,6 +73,23 @@ function sum(num1,num2)
     return numsum;
 
 }
-let ssum=sum(5,7);
-console.log(ssum);
-console.log(sum(5,7));
+// let ssum=sum(5,7);
+// console.log(ssum);
+// console.log(sum(5,7));
+
+// let mymoney =1000;
+// let cost =700;
+// let Frutren=mymoney-cost;
+// console.log(Frutren);
+
+
+// Mathematics, Biology, Chemistry, Physics, and Bangla 
+let Mathematics=75.25,Biology=65,Chemistry=80,Physics=35.45,Bangla=99.45;
+let sumNumber=Mathematics+Biology+Chemistry+Physics+Bangla;
+let avg=parseFloat(sumNumber/5);
+console.log(avg);
+
+
+let number=119;
+let rem=number%5;
+console.log(rem);

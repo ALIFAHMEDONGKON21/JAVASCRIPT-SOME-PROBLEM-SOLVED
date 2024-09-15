@@ -1,5 +1,1 @@
-square(4);
-// console.log('--------------')
-// square(12);
-// square(5);
-// square(405);
+let ans=Multiply(4,8)
