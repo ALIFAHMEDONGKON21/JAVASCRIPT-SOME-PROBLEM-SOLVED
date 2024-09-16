@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Add comment mywebsite</h1>
+    <div id="commet-contianer">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus odio nisi, laborum culpa distinctio explicabo quam perferendis corrupti voluptate architecto sit atque alias magnam eveniet sint id quibusdam a laboriosam?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus odio nisi, laborum culpa distinctio explicabo quam perferendis corrupti voluptate architecto sit atque alias magnam eveniet sint id quibusdam a laboriosam?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus odio nisi, laborum culpa distinctio explicabo quam perferendis corrupti voluptate architecto sit atque alias magnam eveniet sint id quibusdam a laboriosam?</p>
+    </div>
+    <textarea name="" id="comment-box" cols="100" rows="20"></textarea>
+    <br>
+    <button id="btn-comment">add comment</button>
+    <!-- <script>
+        //step 1 done click part 
+        document.getElementById('btn-comment').addEventListener('click', function(){
+            //step 2 
+            const commentbox=document.getElementById('comment-box');
+            const newcommet=commentbox.value;
+           
+            //step 3
+            const commet_continer_box=document.getElementById('commet-contianer');
+            const createp=document.createElement('p');
+            createp.innerText=newcommet;
+            commet_continer_box.appendChild(createp);
+
+            //step 4
+
+            commentbox.value='';
+        })
+    </script> -->
+    <!-- <script>
+        //step 1 
+        document.getElementById('btn-comment').addEventListener('click',function()
+        {
+            //step 2
+            const commet_box=document.getElementById('comment-box');
+            const newcommet=commet_box.value;
+            
+            //step 3
+            const commet_continer_box=document.getElementById('commet-contianer');
+            const createp=document.createElement('p');
+            createp.innerText=newcommet;
+            commet_continer_box.appendChild(createp);
+
+            //step 4
+            commet_box.value='';
+
+        })
+    </script> -->
+    <script>
+        document.getElementById('btn-comment').addEventListener('click',function(){
+            
+            const comment_cox_here=document.getElementById('comment-box');
+            const newcommet=comment_cox_here.value;
+           
+            const container_area=document.getElementById('commet-contianer');
+            const createp=document.createElement('p');
+            createp.innerText=newcommet;
+            container_area.appendChild(createp);
+
+            comment_cox_here.value='';
+        })
+    </script>
+</body>
+</html>

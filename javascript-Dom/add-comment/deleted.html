@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1 id="serat-item">deleted here</h1>
+    <input id="input-here" type="text" placeholder="deleted">
+    <br>
+    <button id="btn-deleted" disabled >
+        delted me
+    </button>
+    <!-- <script>
+       
+    document.getElementById('input-here').addEventListener('keyup', function(event){
+                let text=event.target.value;
+                
+                const btnhere=document.getElementById('btn-deleted')
+                if(text == 'deleted')
+                {
+                    btnhere.removeAttribute('disabled');
+                }
+                else{
+                    btnhere.setAttribute('disabled' ,true)
+                }
+                
+     } )
+
+        //document.getElementById('btn-deleted').addEventListener('click',function(){
+          //  const seratdeletd=document.getElementById('serat-item');
+            //seratdeletd.style.display='none'
+        //})
+    </script> -->
+    <script>
+        document.getElementById('input-here').addEventListener('keyup',function(event){
+            const text=event.target.value;
+            const btnhere=document.getElementById('btn-deleted');
+            if(text ==='deleted')
+            {
+                btnhere.removeAttribute('disabled');
+            }
+            else
+            {
+                btnhere.setAttribute('disabled',true);
+            }
+        })
+    </script>
+</body>
+</html>

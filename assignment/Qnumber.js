@@ -1,8 +1,5 @@
 function  waitingTime(waitingTimes  , serialNumber) {
-    if(Array.isArray(waitingTime)!== true || typeof serialNumber !=='number')
-    {
-        return"Invalid Input";
-    }
+   
     let numberSize = waitingTimes.length;
     let totaltime=0;
     for(let time of waitingTimes)
@@ -20,4 +17,4 @@ function  waitingTime(waitingTimes  , serialNumber) {
 }
 
 
-console.log(waitingTime([7, 8, 3, 4, 5], "9"))
+console.log(waitingTime([13, 2], 6))
