@@ -44,5 +44,18 @@ const isLeader = false;
 // }
 // console.log(price)
 
-price = isLeader === true ? 0 : price + 100;
-console.log(price);
+// price = isLeader === true ? 0 : price + 100;
+// console.log(price);
+
+
+let age =25;
+newage=age<=18?"done":"not doen";
+console.log(newage)
+
+function()
+{
+    let age =25;
+    newage=age<=18?"done":"not doen";
+    console.log(newage)
+    
+}
